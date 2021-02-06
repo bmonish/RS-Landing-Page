@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: Inter;
+    font-family: 'Inter', 'sans-serif';
     background: #F1F1EF;
 }
 
@@ -58,7 +60,7 @@ a:hover {
     width: 130px;
     height: 100px;
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 40px;
     object-fit: contain;
 }
 
@@ -66,7 +68,7 @@ a:hover {
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    margin-left: 20px;
+    margin-left: 40px;
     line-height: 25px;
     letter-spacing: 0em;
     text-align: left;
@@ -75,8 +77,9 @@ a:hover {
 .leftContainer__description {
     font-style: normal;
     font-weight: normal;
+    width: 70%;
     font-size: 18px;
-    margin-left: 20px;
+    margin-left: 40px;
     padding-bottom: 50px;
     line-height: 137.02%;
     color: #868686;
@@ -87,15 +90,16 @@ a:hover {
     font-weight: bold;
     font-size: 40px;
     padding-bottom: 50px;
-    margin-left: 20px;
+    margin-left: 40px;
     line-height: 104.52%;
     /* or 42px */
     color: #333333;
 }
+
 .right__container {
     height: 100vh;
     flex: 0.5;
-    background:url('images/background.jpg') no-repeat;
+    background: url('images/background.jpg') no-repeat;
     background-size: 700px;
     background-position: bottom right;
 }
@@ -106,12 +110,12 @@ input {
     border: none;
     color: #333333;
     padding: 5px;
-    width: 40%;
+    width: 60%;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    margin-left: 20px;
+    margin-left: 40px;
     line-height: 36px;
     letter-spacing: 0em;
     text-align: left;
@@ -120,7 +124,7 @@ input {
 
 input:focus {
     outline: none;
-    width: 60%;
+    width: 80%;
     transition: all 300ms ease-in;
 }
 
@@ -128,7 +132,7 @@ input:focus {
     margin-bottom: 60px;
 }
 
-.userInput > label {
+.userInput>label {
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -142,7 +146,7 @@ input:focus {
 .submit__button {
     padding: 10px;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 40px;
     font-weight: 700;
     border: none;
     transition: all 300ms ease-in;
