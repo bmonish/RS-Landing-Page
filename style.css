@@ -163,6 +163,35 @@ input:focus {
     outline: none;
 }
 
+@media screen and (max-width: 1024px) {
+    .main__container {
+        flex-direction: column;
+        max-width: 100vh;
+    }
+
+    .header__logo {
+        padding-bottom: 30px;
+    }
+
+    .left__container {
+        min-height: 93vh;
+    }
+
+    .leftContainer__description {
+        font-size: 30px;
+    }
+
+    .right__container {
+        max-height: 10vh;
+    }
+
+    ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .main__container {
         flex-direction: column;
@@ -187,6 +216,7 @@ input:focus {
     input {
         font-size: 20px;
     }
+
     ul {
         max-height: 30vh;
         flex-direction: column;
