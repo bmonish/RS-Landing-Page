@@ -19,15 +19,15 @@
         <div>
             <p class="leftContainer__construction">Our website is<br> under maintainance.<br> Get notification on release —</p>
 
-            <form class="userInput" action="#">
-                <label>NOTIFY ME</label><br />
+            <form class="userInput" method="POST" action="mailto:hello@rsindia.org?subject=Get Notified from Website" enctype="text/plain">
+                <label for="userEmail">NOTIFY ME</label><br />
                 <input
                   type="text"
                   name="userEmail"
                   class="userEmail"
                   placeholder="Your email"
                 /><br />
-                <button class="submit__button">GET NOTIFIED</button>
+                <button type="submit" class="submit__button">GET NOTIFIED</button>
               </form>
             </div>
         </div>
