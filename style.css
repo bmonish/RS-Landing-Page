@@ -224,3 +224,19 @@ input:focus {
         align-items: center;
     }
 }
+
+@media screen and (max-width: 1024px){
+    .main__container { 
+        flex-direction: column;
+    }
+
+    .left__container {
+        min-width: 100vw;
+    }
+}
+
+@media screen and (min-height: 1024px) {
+    .right__container {
+        background-size: 820px;
+    }
+}
